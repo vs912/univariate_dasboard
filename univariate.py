@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load your dataset
-df = pd.read_csv("cleaned_data.csv")
+df = pd.read_csv("temp.csv")
 
 # Set layout
 st.set_page_config(page_title="Mental Health Dashboard", layout="centered")
